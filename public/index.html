@@ -1,87 +1,203 @@
-
 <!DOCTYPE html>
 <html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Chat IA</title>
-
+    <title>Raíces Inmobiliaria — Inicio</title>
     <link rel="stylesheet" href="css/styles.css">
 </head>
-
 <body>
-    <div class="app">
 
-        <aside class="sidebar">
-            <h2>✦ Chat IA</h2>
+    <header class="site-header">
+        <div class="container">
+            <a href="index.html" class="brand">
+                <span class="brand-mark">RI</span>
+                Raíces Inmobiliaria
+            </a>
 
-            <button id="new-chat" class="new-chat">
-                + Nuevo chat
-            </button>
+            <nav class="main-nav">
+                <a href="index.html" aria-current="page">Inicio</a>
+                <a href="propiedades.html">Propiedades</a>
+                <a href="nosotros.html">Nosotros</a>
+                <a href="contacto.html">Contacto</a>
+                <a href="chat.html" class="nav-cta">✦ Asistente IA</a>
+            </nav>
+        </div>
+    </header>
 
-            <p class="sidebar-label">Tus conversaciones</p>
-
-            <div id="chat-history"></div>
-
-            <div class="sidebar-footer">
-                Proyecto de aprendizaje
+    <section class="hero">
+        <div class="container">
+            <div>
+                <h1>Encontrá tu próxima <span>propiedad</span> en Montevideo</h1>
+                <p>Compra, venta y alquiler de propiedades en Pocitos, Punta Carretas, Centro y Cordón. Más de 15 años acompañando a quienes buscan un lugar donde vivir.</p>
+                <div class="hero-actions">
+                    <a href="propiedades.html" class="btn btn-primary">Ver propiedades</a>
+                    <a href="chat.html" class="btn btn-outline">Hablar con el asistente IA</a>
+                </div>
             </div>
-        </aside>
 
-        <main class="chat">
+            <div class="hero-card">
+                <h3>¿Buscás algo puntual?</h3>
+                <p style="color:#5b6270; margin:0 0 4px;">Contanos zona, presupuesto y ambientes, y te ayudamos a encontrarlo.</p>
+                <div class="hero-stats">
+                    <div>
+                        <strong>4</strong>
+                        <span>Zonas de operación</span>
+                    </div>
+                    <div>
+                        <strong>+180</strong>
+                        <span>Operaciones cerradas</span>
+                    </div>
+                    <div>
+                        <strong>24/7</strong>
+                        <span>Consultas por el chat</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
-            <header class="chat-header">
-                <div class="avatar">✦</div>
+    <section>
+        <div class="container">
+            <div class="section-title">
+                <span class="eyebrow">Destacadas</span>
+                <h2>Propiedades disponibles</h2>
+                <p>Una selección de lo que tenemos hoy en venta y en alquiler.</p>
+            </div>
 
+            <div class="property-grid">
+                <article class="property-card">
+                    <div class="property-media">
+                        <span class="property-tag">Venta</span>
+                        🏢
+                    </div>
+                    <div class="property-body">
+                        <h3>Apartamento 2 ambientes</h3>
+                        <p class="property-zone">Pocitos</p>
+                        <div class="property-specs">
+                            <span>55 m²</span>
+                            <span>Balcón</span>
+                            <span>Garaje opcional</span>
+                        </div>
+                        <p class="property-price">USD 125.000</p>
+                    </div>
+                </article>
+
+                <article class="property-card">
+                    <div class="property-media">
+                        <span class="property-tag">Venta</span>
+                        🏙️
+                    </div>
+                    <div class="property-body">
+                        <h3>Apartamento 3 ambientes</h3>
+                        <p class="property-zone">Punta Carretas</p>
+                        <div class="property-specs">
+                            <span>80 m²</span>
+                            <span>Vista al mar</span>
+                            <span>2 baños</span>
+                        </div>
+                        <p class="property-price">USD 210.000</p>
+                    </div>
+                </article>
+
+                <article class="property-card">
+                    <div class="property-media">
+                        <span class="property-tag alquiler">Alquiler</span>
+                        🏠
+                    </div>
+                    <div class="property-body">
+                        <h3>Apartamento 2 ambientes</h3>
+                        <p class="property-zone">Pocitos</p>
+                        <div class="property-specs">
+                            <span>50 m²</span>
+                            <span>Balcón</span>
+                            <span>Admite mascotas</span>
+                        </div>
+                        <p class="property-price">$ 32.000/mes</p>
+                        <p class="property-note">+ gastos comunes</p>
+                    </div>
+                </article>
+            </div>
+
+            <div style="text-align:center; margin-top:36px;">
+                <a href="propiedades.html" class="btn btn-primary">Ver todas las propiedades</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="alt-bg">
+        <div class="container">
+            <div class="section-title">
+                <span class="eyebrow">Por qué elegirnos</span>
+                <h2>Atención rápida, del día a día y 24/7</h2>
+            </div>
+
+            <div class="info-grid">
+                <div class="info-card">
+                    <div class="info-icon">📍</div>
+                    <h4>Oficina en Bulevar España</h4>
+                    <p>Bulevar España 2456, Montevideo</p>
+                </div>
+                <div class="info-card">
+                    <div class="info-icon">🕒</div>
+                    <h4>Horario</h4>
+                    <p>Lun. a vier. 9:00–18:00<br>Sáb. 9:00–13:00</p>
+                </div>
+                <div class="info-card">
+                    <div class="info-icon">☎</div>
+                    <h4>Teléfono</h4>
+                    <p>2708 5566</p>
+                </div>
+                <div class="info-card">
+                    <div class="info-icon">✦</div>
+                    <h4>Asistente IA</h4>
+                    <p>Consultas respondidas al instante, las 24 horas</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="container">
+            <div class="cta-banner">
                 <div>
-                    <h1>Asistente IA</h1>
-                    <span class="status">Tu asistente personal</span>
+                    <h2>¿Tenés dudas sobre una propiedad?</h2>
+                    <p>Nuestro asistente IA te ayuda a encontrar lo que buscás y te pasa el contacto de un agente para coordinar una visita.</p>
                 </div>
-            </header>
+                <a href="chat.html" class="btn btn-primary">Hablar con el asistente</a>
+            </div>
+        </div>
+    </section>
 
-            <section
-                id="messages"
-                class="messages"
-                aria-live="polite"
-                aria-label="Conversación"
-            >
-                <div class="welcome">
-                    <div class="welcome-icon">✦</div>
+    <footer class="site-footer">
+        <div class="container footer-grid">
+            <div>
+                <h3>Raíces Inmobiliaria</h3>
+                <p>Venta y alquiler de propiedades en Montevideo. Te acompañamos en todo el proceso, de principio a fin.</p>
+            </div>
+            <div>
+                <h4>Navegación</h4>
+                <ul class="footer-links">
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="propiedades.html">Propiedades</a></li>
+                    <li><a href="nosotros.html">Nosotros</a></li>
+                    <li><a href="contacto.html">Contacto</a></li>
+                    <li><a href="chat.html">Asistente IA</a></li>
+                </ul>
+            </div>
+            <div>
+                <h4>Contacto</h4>
+                <ul class="footer-links">
+                    <li>Bulevar España 2456, Montevideo</li>
+                    <li>Tel. 2708 5566</li>
+                    <li>Lun. a vier. 9:00–18:00 · Sáb. 9:00–13:00</li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            © 2026 Raíces Inmobiliaria. Proyecto académico — UTU, Tecnicatura en Redes y Software.
+        </div>
+    </footer>
 
-                    <h2>¿En qué puedo ayudarte?</h2>
-
-                    <p>
-                        Escribí tu pregunta y comencemos
-                        una conversación.
-                    </p>
-                </div>
-            </section>
-
-            <form id="chat-form" class="chat-form">
-                <label class="sr-only" for="message-input">
-                    Escribí tu mensaje
-                </label>
-
-                <input
-                    type="text"
-                    id="message-input"
-                    placeholder="Escribí un mensaje..."
-                    autocomplete="off"
-                    required
-                >
-
-                <button type="submit" id="send-button">
-                    Enviar
-                </button>
-            </form>
-
-            <p class="disclaimer">
-                La IA puede cometer errores. Verificá la información.
-            </p>
-
-        </main>
-    </div>
-
-    <script src="js/app.js"></script>
 </body>
 </html>
