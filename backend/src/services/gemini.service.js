@@ -14,7 +14,7 @@ async function generateResponse(message) {
   }
 
   const response = await ai.models.generateContent({
-    model: "gemini-3.8-flash",
+    model: "gemini-3.5-flash",
     // Configuración de la instrucción del sistema para que actúe como un profesor de IA 
     //Es el ROL que queremos que tenga la IA
     config: {

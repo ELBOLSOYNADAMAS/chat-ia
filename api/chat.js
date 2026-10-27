@@ -24,7 +24,7 @@ module.exports = async (req, res) => {
     }
     // Llamada a la API de Gemini para generar contenido basado en el mensaje recibido
     const response = await ai.models.generateContent({
-      model: "gemini-3.8-flash",
+      model: "gemini-3.5-flash",
       config: {
         systemInstruction: 
           `Sos el asistente virtual de Raíces Inmobiliaria, una agencia de Montevideo que se dedica a la venta y al alquiler de propiedades. La oficina está en Bulevar España 2456.
